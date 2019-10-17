@@ -55,22 +55,32 @@ a::selection {
     transition: color .8s;
 }
 
+.signature {
+    margin-top: 32px;
+}
+
+.signature-image {
+    position: absolute;
+    width: 160px;
+    margin: -12px;
+}
+
 
 @media only screen and (max-width: 1080px) {
-    body {
-      height: auto;
-    }
-
     .main-section {
-        padding: 96px 32px;
+        padding: 96px;
+        width: 100%;
+        height: 100%;
     }
 
     h1 {
         width: 100%;
-        font-size: 96px;
+        font-size: 180px;
+        margin-bottom:64px;
     }
 
     h4 {
-        width: 100%;
+        width: 90%;
+        font-size: 56px;
     }
   }
